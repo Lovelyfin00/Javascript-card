@@ -1,6 +1,6 @@
 let teamDetails = [{
     fullName : 'Loveth Omokaro',
-    image : '../img/Loveth.png',
+    image : './img/Loveth.png',
     bestFood : 'Starch with black soup',
     complexion : 'Caramel',
     thingsLearnt : 'I learnt about Html, css & Js',
@@ -8,7 +8,7 @@ let teamDetails = [{
     age : '23'
 }, {
     fullName : 'Charles Onyemenam',
-    image : '../img/charles-circle.png',
+    image : './img/charles-circle.png',
     bestFood : 'Plaintain and Egg',
     complexion : 'Dark',
     thingsLearnt : 'I learnt about Html, css & Js',
@@ -16,7 +16,7 @@ let teamDetails = [{
     age : '24'
 }, {
     fullName : 'Anyanwu Chukwuemeka Clinton',
-    image : '../img/Khrisemeka-circle.png',
+    image : './img/Khrisemeka-circle.png',
     bestFood : 'anything but amala',
     complexion : 'Dark',
     thingsLearnt : 'I learnt about Html, css & Js',
@@ -24,7 +24,7 @@ let teamDetails = [{
     age : '23'
 }, {
     fullName : 'Ogaga Andrew',
-    image : '../img/drew-circle.png',
+    image : './img/drew-circle.png',
     bestFood : 'Rice and stew',
     complexion : 'Dark',
     thingsLearnt : 'I learnt about Html, css & Js',
@@ -32,7 +32,7 @@ let teamDetails = [{
     age : '26'
 }, {
     fullName : 'Ifeoma Okafor',
-    image : '../img/e4ma-circle.png',
+    image : './img/e4ma-circle.png',
     bestFood : 'Rice and beans',
     complexion : 'Dark',
     thingsLearnt : 'I learnt about Html, css & Js',
@@ -40,7 +40,7 @@ let teamDetails = [{
     age : '23'
 }, {
     fullName : 'Kasie Ugwu',
-    image : '../img/kasie-circle.png',
+    image : './img/kasie-circle.png',
     bestFood : 'Yam and beans',
     complexion : 'Caramel',
     thingsLearnt : 'I learnt about Html, css & Js',
@@ -48,7 +48,7 @@ let teamDetails = [{
     age : '23'
 }, {
     fullName : 'Shodipe Oladele',
-    image : '../img/ladel-circle.png',
+    image : './img/ladel-circle.png',
     bestFood : 'Pepper soup',
     complexion : 'Dark',
     thingsLearnt : 'I learnt about Html, css & Js',
@@ -56,7 +56,7 @@ let teamDetails = [{
     age : '26'
 }, {
     fullName : 'Stanley Chijioke',
-    image : '../img/stanley-circle.png',
+    image : './img/stanley-circle.png',
     bestFood : 'Fried rice ',
     complexion : 'Caramel',
     thingsLearnt : 'I learnt about Html, css & Js',

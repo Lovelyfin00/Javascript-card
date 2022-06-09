@@ -81,7 +81,7 @@ let complexionLocation = document.querySelectorAll('.complexion');
 let thingsLearntLocation = document.querySelectorAll('.things-learnt');
 let bestMovieLocation = document.querySelectorAll('.best-movie');
 let ageLocation = document.querySelectorAll('.age');
-let buttonClick = document.querySelectorAll('button');
+let buttonClick = document.querySelectorAll('.btn');
 
 
 
@@ -93,13 +93,15 @@ for (i = 0; i<teamDetails.length; i++){
     let images = `<img src="${teamDetails[i].image}" alt="stanley img" class="img-fluid loveth-img rounded-circle w-75">`;
     imageLocation[i].innerHTML += images;
 
-    // For track
-    let tracks = `<i class="fa-solid fa-check pe-2"></i> <span class ="fw-bold">Track : </span>${teamDetails[i].track}`;
-    // trackLocation[i].innerHTML += tracks;
 
     // For best Food
     let food = `<i class="fa-solid fa-check pe-2"></i> <span class ="fw-bold">Best Food : </span> ${teamDetails[i].bestFood}`;
     bestFoodLocation[i].innerHTML += food;
+
+    // For track
+    let tracks = `<i class="fa-solid fa-check pe-2"></i> <span class ="fw-bold">Track : </span>${teamDetails[i].track}`;
+    trackLocation[i].innerHTML += tracks;
+
 
 // For complexion
 
@@ -119,11 +121,11 @@ for (i = 0; i<teamDetails.length; i++){
     let allAge = `<i class="fa-solid fa-check pe-2"></i> <span class ="fw-bold">Age : </span> ${teamDetails[i].age}`;
     ageLocation[i].innerHTML += allAge;
 
-
+    // For button
     buttonClick[i].addEventListener('click', function(){
-        alert(`${teamDetails[i].fullName}`);
-})
-
+        alert(names);
+    }
+    );
 }
 
 

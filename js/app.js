@@ -1,7 +1,6 @@
 let teamDetails = [{
     fullName : 'Loveth Omokaro',
     image : '../img/Loveth.png',
-    track : 'Frontend Development',
     bestFood : 'Starch with black soup',
     complexion : 'Caramel',
     thingsLearnt : 'I learnt about Html, css & Js',
@@ -10,7 +9,6 @@ let teamDetails = [{
 }, {
     fullName : 'Charles Onyemenam',
     image : '../img/charles-circle.png',
-    track : 'Frontend Development',
     bestFood : 'Plaintain and Egg',
     complexion : 'Dark',
     thingsLearnt : 'I learnt about Html, css & Js',
@@ -19,7 +17,6 @@ let teamDetails = [{
 }, {
     fullName : 'Anyanwu Chukwuemeka Clinton',
     image : '../img/Khrisemeka-circle.png',
-    track : 'Frontend Development',
     bestFood : 'anything but amala',
     complexion : 'Dark',
     thingsLearnt : 'I learnt about Html, css & Js',
@@ -28,7 +25,6 @@ let teamDetails = [{
 }, {
     fullName : 'Ogaga Andrew',
     image : '../img/drew-circle.png',
-    track : 'Frontend Development',
     bestFood : 'Rice and stew',
     complexion : 'Dark',
     thingsLearnt : 'I learnt about Html, css & Js',
@@ -37,7 +33,6 @@ let teamDetails = [{
 }, {
     fullName : 'Ifeoma Okafor',
     image : '../img/e4ma-circle.png',
-    track : 'Frontend Development',
     bestFood : 'Rice and beans',
     complexion : 'Dark',
     thingsLearnt : 'I learnt about Html, css & Js',
@@ -46,7 +41,6 @@ let teamDetails = [{
 }, {
     fullName : 'Kasie Ugwu',
     image : '../img/kasie-circle.png',
-    track : 'Frontend Development',
     bestFood : 'Yam and beans',
     complexion : 'Caramel',
     thingsLearnt : 'I learnt about Html, css & Js',
@@ -55,7 +49,6 @@ let teamDetails = [{
 }, {
     fullName : 'Shodipe Oladele',
     image : '../img/ladel-circle.png',
-    track : 'Frontend Development',
     bestFood : 'Pepper soup',
     complexion : 'Dark',
     thingsLearnt : 'I learnt about Html, css & Js',
@@ -64,7 +57,6 @@ let teamDetails = [{
 }, {
     fullName : 'Stanley Chijioke',
     image : '../img/stanley-circle.png',
-    track : 'Frontend Development',
     bestFood : 'Fried rice ',
     complexion : 'Caramel',
     thingsLearnt : 'I learnt about Html, css & Js',
@@ -98,12 +90,7 @@ for (i = 0; i<teamDetails.length; i++){
     let food = `<i class="fa-solid fa-check pe-2"></i> <span class ="fw-bold">Best Food : </span> ${teamDetails[i].bestFood}`;
     bestFoodLocation[i].innerHTML += food;
 
-    // For track
-    let tracks = `<i class="fa-solid fa-check pe-2"></i> <span class ="fw-bold">Track : </span>${teamDetails[i].track}`;
-    trackLocation[i].innerHTML += tracks;
-
-
-// For complexion
+    // For complexion
 
     let complexions = `<i class="fa-solid fa-check pe-2"></i> <span class ="fw-bold">Complexion : </span> ${teamDetails[i].complexion}`;
     complexionLocation[i].innerHTML += complexions;
